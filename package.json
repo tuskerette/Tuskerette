@@ -1,0 +1,25 @@
+{
+  "name": "tuskerette",
+  "version": "1.0.0",
+  "description": "portfolio"
+  },
+  "engines": {
+    "node": "6.3.1"
+  },
+  "scripts": {
+    "build": "cd tuskerettefe && npm install & npm run build && cd ..",
+    "deploy": "cp -a tuskerettefe/build/. public/",
+    "postinstall": "npm run build && npm run deploy && echo 'Client built'"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuskerette/Tuskerette.git"
+  },
+  "author": "valeria graffeo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuskerette/Tuskerette/issues"
+  },
+  "homepage": "https://github.com/tuskerette/Tuskerette#readme"
+}
