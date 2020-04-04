@@ -1,0 +1,3 @@
+[submodule "tuskerettefe"]
+	path = tuskerettefe
+	url = git@github.com:tuskerette/tuskerettefe.git
